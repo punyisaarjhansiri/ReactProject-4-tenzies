@@ -66,8 +66,6 @@ export default function App() {
             <p className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
             <div className="dice-container">
                 {diceElements}
-                <img src="https://cdn-icons-png.flaticon.com/512/8336/8336948.png" />
-
             </div>
             <button className="roll-dice" onClick={rollDice}>{tenzies ? "New Game" : "Roll"}</button>
         </main>
